@@ -1,0 +1,32 @@
+{
+  "name": "safevault-secure-app",
+  "version": "1.0.0",
+  "description": "En esta actividad, utilizará Microsoft Copilot para generar código seguro para una aplicación web, centrándose en mitigar vulnerabilidades comunes como la inyección de SQL y la secuencia de comandos entre sitios (XSS). También escribirá pruebas para garantizar que el código generado protege contra posibles amenazas a la seguridad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentBooster/SafeVault-Secure-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgentBooster/SafeVault-Secure-App/issues"
+  },
+  "homepage": "https://github.com/AgentBooster/SafeVault-Secure-App#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite3": "^6.0.1",
+    "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
